@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         //The PDF file should be inside the assets folder
         ((PDFView)findViewById(R.id.pdfView))
-                .fromAsset("sample.pdf")
+                .fromAsset("pdf-sample.pdf")
                 //.pages(0) // all pages are displayed by default
                 .enableSwipe(true) // allows to block changing pages using swipe
                 .swipeHorizontal(false)
